@@ -7,3 +7,4 @@ Wise Travelers sync the perfect weather with the perfect location
 Updated git.ignore to include .DS_Store
 
 Adding in the main branch
+Adding in the nancy-feature branch
