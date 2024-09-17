@@ -7,3 +7,5 @@ Wise Travelers sync the perfect weather with the perfect location
 Updated git.ignore to include .DS_Store
 
 Adding in the main branch
+
+1. Adding in the my-feature branch`
