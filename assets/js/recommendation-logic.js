@@ -1,8 +1,10 @@
 //hard coded weather for wise traveler recommendation
 const recommendations = {
-  freezing: ["Alaska"],
-  cold: ["Toronto"],
-  neutral: ["San Francisco"],
-  warm: ["Maui"],
-  hot: ["Arizona"],
-};
+
+    chilly["Juneau"; "Reykjavik"; "Svalbard"],
+    cool["Toronto"; "Moscow"; "Hokkaido"],
+    temperate["San Francisco"; "Berlin"; "Guangzhou"],
+    tropical["Maui"; "Miami"; "Kerala"],
+    desert["Namibia"; "Cairo"; "Dubai"]],
+    }
+    
