@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Wise Travelers</title>
+  </head>
+  <body>
+    <!-- Screen 1: Weather Selection -->
+    <!-- This section is the first screen where users select a weather type and generate a recommendation. -->
+    <div id="weather-selection-screen">
+      <!-- Heading and instructions for the user -->
+      <h1>
+        Make a selection below to get a travel recommendation from Team 3 🌴
+      </h1>
+      <p>Select the weather you’d like:</p>
+
+      <!-- Dropdown for weather selection -->
+      <!-- The user will choose one of these options: freezing, cold, neutral, warm, or hot -->
+      <label for="weather">Weather:</label>
+      <select id="weather">
+        <option value="">-- Select --</option>
+        <!-- Placeholder option when nothing is selected -->
+        <option value="freezing">Freezing</option>
+        <option value="cold">Cold</option>
+        <option value="neutral">Neutral</option>
+        <option value="warm">Warm</option>
+        <option value="hot">Hot</option>
+      </select>
+      <br /><br />
+
+      <!-- Generate Button -->
+      <!-- This button starts disabled and will be enabled once the user selects a weather option -->
+      <button id="generateButton" disabled>Generate Location</button>
+
+      <!-- Error message will be displayed here if needed (e.g., if no selection is made) -->
+      <p id="error" style="color: red"></p>
+    </div>
+
+    <!-- Screen 2: Travel Recommendation -->
+    <!-- This section becomes visible after the user generates a recommendation, showing the result. -->
+    <div id="recommendation-screen" style="display: none">
+      <!-- Dynamic heading that updates with the weather type and recommended location -->
+      <h1>
+        For <span id="selectedWeather"></span> weather we recommend
+        <span id="recommendedLocation"></span>
+      </h1>
+
+      <!-- Image element where the GIF from the Giphy API will be displayed -->
+      <img
+        id="locationImage"
+        src=""
+        alt="Location GIF"
+        style="width: 400px; height: 300px"
+      />
+
+      <!-- A link to the Wikipedia page of the recommended location -->
+      <!-- The link will open in a new tab because of the target="_blank" attribute -->
+      <p>
+        <a href="#" id="wikiLink"
+          >More information on <span id="wikiLocation"></span
+        ></a>
+      </p>
+
+      <!-- Button that allows the user to generate a new location -->
+      <button id="newLocationButton">Generate New Location</button>
+    </div>
+
+    <!-- Link to the JavaScript file that handles the logic of the app -->
+    <script src="./assets/js/API-connection.js"></script>
+    <script src="./assets/js/recommendation-logic.js"></script>
+    <script src="./assets/js/dom-element.js"></script>
+  </body>
 </html>
