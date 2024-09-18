@@ -4,7 +4,13 @@ Wise Travelers sync the perfect weather with the perfect location
 
 ## updates 9-16-24
 
-Updated git.ignore to include .DS_Store
+Git/Repo
+Wireframe and user stories
+MVP discussion
 
-Adding in the main branch
-Adding in the nancy-feature branch
+## updates 9-17-24
+
+HTML: changed climates
+CSS: hero background, header color
+JS: fixed selection button to link to APIs
+status: functional!!! will start presentation Thursday, continue user testing
