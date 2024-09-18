@@ -5,6 +5,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Wise Travelers</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <!-- Screen 1: Weather Selection -->
@@ -12,7 +14,8 @@
     <div id="weather-selection-screen">
       <!-- Heading and instructions for the user -->
       <h1>
-        Make a selection below to get a travel recommendation from Team 3 🌴
+        Make a selection below to get a travel recommendation from The Wise
+        Travelers 🌴
       </h1>
       <p>Select the weather you’d like:</p>
 
@@ -22,11 +25,11 @@
       <select id="weather">
         <option value="">-- Select --</option>
         <!-- Placeholder option when nothing is selected -->
-        <option value="freezing">Freezing</option>
-        <option value="cold">Cold</option>
-        <option value="neutral">Neutral</option>
-        <option value="warm">Warm</option>
-        <option value="hot">Hot</option>
+        <option value="chilly">Chilly</option>
+        <option value="cool">Cool</option>
+        <option value="temperate">Temperate</option>
+        <option value="tropical">Tropical</option>
+        <option value="desert">Desert</option>
       </select>
       <br /><br />
 
@@ -70,6 +73,9 @@
     <!-- Link to the JavaScript file that handles the logic of the app -->
     <script src="./assets/js/API-connection.js"></script>
     <script src="./assets/js/recommendation-logic.js"></script>
+    <script src="./assets/js/Local-storage.js"></script>
     <script src="./assets/js/dom-element.js"></script>
+    <script src="./assets/js/handlers.js"></script>
+    <script src="./assets/js/API-queries.js"></script>
   </body>
 </html>
