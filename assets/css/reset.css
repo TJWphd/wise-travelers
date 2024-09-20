@@ -5,12 +5,28 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-
 span {
+  display: inline-block;
+}
+
+.logo {
   color: coral;
   font-size: 56px;
   font-weight: bolder;
 }
+
+#weather-selection-screen {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#selectedWeather {
+  color: coral;
+  font-weight: bolder;
+}
+
 @media only screen and (max-width: 600px) {
   .wrapper-main {
     width: 100%;
