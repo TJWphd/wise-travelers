@@ -2,26 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Wise Travelers</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body background= "assets/images/wise-travelers-hero.jpg"></Body>
+  <body background= "assets/images/beachPic.jpeg"></Body>
     <!-- Screen 1: Weather Selection -->
     <!-- This section is the first screen where users select a weather type and generate a recommendation. -->
     <div id="weather-selection-screen">
       <!-- Heading and instructions for the user -->
       <h1>
-        Make a selection below to get a travel recommendation from The Wise
-        Travelers 🌴
+        Make a selection below to get a travel recommendation from <span class="logo"> The Wise
+        Travelers </span>🌴
       </h1>
       <p ID="P1">Select the weather you’d like:</p>
 
       <!-- Dropdown for weather selection -->
-      <!-- The user will choose one of these options: freezing, cold, neutral, warm, or hot -->
-      <label for="weather">Weather:</label>
+      <!-- The user will choose one of these options: chilly, cold, temperate, tropical, or desert -->
+       <div class="input">
+      <!-- <label for="weather">Weather:</label> -->
       <select id="weather">
         <option value="">-- Select --</option>
         <!-- Placeholder option when nothing is selected -->
@@ -39,15 +39,19 @@
 
       <!-- Error message will be displayed here if needed (e.g., if no selection is made) -->
       <p id="error" style="color: red"></p>
+      </div>
     </div>
 
     <!-- Screen 2: Travel Recommendation -->
     <!-- This section becomes visible after the user generates a recommendation, showing the result. -->
+     <div class="inputTwo">
     <div id="recommendation-screen" style="display: none">
       <!-- Dynamic heading that updates with the weather type and recommended location -->
       <h1>
-        For <span id="selectedWeather"></span> weather we recommend
-        <span id="recommendedLocation"></span>
+
+        For  <span id="selectedWeather"> </span>  weather we recommend 
+        <span id="recommendedLocation"> </span>
+      
       </h1>
 
       <!-- Image element where the GIF from the Giphy API will be displayed -->
@@ -60,14 +64,15 @@
 
       <!-- A link to the Wikipedia page of the recommended location -->
       <!-- The link will open in a new tab because of the target="_blank" attribute -->
-      <p>
+      <p id="p2">
         <a href="#" id="wikiLink"
-          >More information on <span id="wikiLocation"></span
+          >More information on  <span id="wikiLocation"></span
         ></a>
       </p>
 
       <!-- Button that allows the user to generate a new location -->
       <button id="newLocationButton">Generate New Location</button>
+      </div>
     </div>
 
     <!-- Link to the JavaScript file that handles the logic of the app -->

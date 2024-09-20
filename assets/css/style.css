@@ -1,20 +1,158 @@
 h1 {
   color: rgb(20, 17, 17);
-  padding: 5px;
   font-size: 36px;
-  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: -5px;
+}
+
+#recommendedLocation {
+  color: coral;
+  font-weight: bolder;
 }
 
 #P1 {
   display: flex;
-  justify-content:center;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   font-size: 24px;
   font-weight: bold;
-  
-  background-color: aqua;
-  padding-left: 0;
+
   padding-right: 0;
+}
+
+.input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+  padding: 5px;
+}
+
+#generateButton {
+  padding: 10px;
+  background-color: coral;
+  color: rgb(20, 17, 17);
+  border-radius: 10px;
+}
+
+#weather {
+  padding: 3px;
+  margin: 8px;
+  background-color: lightblue;
+  color: rgb(20, 17, 17);
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.inputTwo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#locationImage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 220px;
+}
+
+#p2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  text-align: center;
+}
+
+#newLocationButton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 350px;
+  
+}
+
+#P1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+
+  padding-right: 0;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+  padding: 5px;
+}
+
+#generateButton {
+  padding: 10px;
+  background-color: coral;
+  color: rgb(20, 17, 17);
+  border-radius: 10px;
+}
+
+#weather {
+  padding: 3px;
+  margin: 8px;
+  background-color: lightblue;
+  color: rgb(20, 17, 17);
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.inputTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#locationImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 220px;
+}
+
+#p2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  text-align: center;
+}
+
+#newLocationButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 350px;
+  padding: 10px;
+  background-color: coral;
+  color: rgb(20, 17, 17);
+  border-radius: 10px;
 }
