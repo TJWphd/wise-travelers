@@ -52,12 +52,12 @@ h1 {
   margin-left: 10px;
 }
 
-/* #locationImage {
+#locationImage {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 220px;
-} */
+}
 
 #p2 {
   display: flex;
@@ -72,9 +72,4 @@ h1 {
   justify-content: center;
   align-items: center;
   margin-left: 350px;
-}
-
-img {
-  display: flex;
-  justify-content: end;
 }
