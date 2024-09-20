@@ -1,11 +1,15 @@
 h1 {
   color: rgb(20, 17, 17);
-  padding: -5px;
   font-size: 36px;
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: -5px;
+}
+
+#recommendedLocation {
+  color: coral;
+  font-weight: bolder;
 }
 
 #P1 {
