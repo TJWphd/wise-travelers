@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Wise Travelers</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
@@ -14,13 +13,13 @@
     <div id="weather-selection-screen">
       <!-- Heading and instructions for the user -->
       <h1>
-        Make a selection below to get a travel recommendation from <span> The Wise
+        Make a selection below to get a travel recommendation from <span class="logo"> The Wise
         Travelers </span>🌴
       </h1>
       <p ID="P1">Select the weather you’d like:</p>
 
       <!-- Dropdown for weather selection -->
-      <!-- The user will choose one of these options: freezing, cold, neutral, warm, or hot -->
+      <!-- The user will choose one of these options: chilly, cold, temperate, tropical, or desert -->
        <div class="input">
       <!-- <label for="weather">Weather:</label> -->
       <select id="weather">
@@ -49,8 +48,10 @@
     <div id="recommendation-screen" style="display: none">
       <!-- Dynamic heading that updates with the weather type and recommended location -->
       <h1>
-        For  <span id="selectedWeather"></span>  weather we recommend 
-        <span id="recommendedLocation"></span>
+
+        For  <span id="selectedWeather"> </span>  weather we recommend 
+        <span id="recommendedLocation"> </span>
+      
       </h1>
 
       <!-- Image element where the GIF from the Giphy API will be displayed -->
