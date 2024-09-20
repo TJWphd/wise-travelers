@@ -2,15 +2,17 @@
 
 Wise Travelers sync the perfect weather with the perfect location
 
-## updates 9-16-24
+## description
 
-Git/Repo
-Wireframe and user stories
-MVP discussion
+Web application proving travel location recommendations based on weather preferences.
 
-## updates 9-17-24
+## features
 
-HTML: changed climates
-CSS: hero background, header color
-JS: fixed selection button to link to APIs
-status: functional!!! will start presentation Thursday, continue user testing
+GIFs are presented for the recommendation as well as a link to Wikipedia for that location.
+Reveal page button resets app for next recommendation.
+
+## installation
+
+Screenshot: selection screen ./assets/selection.jpg
+Screenshot: reveal screen ./assets/reveal.jpg
+Deployment link: https://tjwphd.github.io/wise-travelers
