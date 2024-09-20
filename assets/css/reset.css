@@ -1,4 +1,12 @@
 * {
-  background-color: aqua;
+  background-size: cover;
   color: black;
+  background-attachment: fixed;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+span {
+  color: coral;
+  font-size: 56px;
+  font-weight: bolder;
 }
