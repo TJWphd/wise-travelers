@@ -50,6 +50,6 @@ weatherSelect.addEventListener("change", function () {
 document
   .getElementById("newLocationButton")
   .addEventListener("click", function () {
-    weatherSelectionScreen.style.display = "block"; // Show weather selection screen
+    weatherSelectionScreen.style.display = "flex"; // Show weather selection screen
     recommendationScreen.style.display = "none"; // Hide recommendation screen
   });
