@@ -20,4 +20,6 @@ Deployment link: https://tjwphd.github.io/wise-travelers
 
 ![image alt](https://github.com/TJWphd/wise-travelers/blob/20fb67ea06d16bd974222032f03cf739571afff9/assets/images/image.png)
 
+![image alt](https://github.com/TJWphd/wise-travelers/blob/30a9aa914f1fe3e1c03ae3569aec65205f3c84f3/assets/images/Image%202.png)
+
 
