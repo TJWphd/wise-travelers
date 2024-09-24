@@ -16,3 +16,5 @@ Reveal page button resets app for next recommendation.
 Screenshot: selection screen ./assets/selection.jpg
 Screenshot: reveal screen ./assets/reveal.jpg
 Deployment link: https://tjwphd.github.io/wise-travelers
+
+https://github.com/TJWphd/wise-travelers/blob/6e8dbb43b2298ffebef01785d81e1a6b8bd0adc1/assets/images/image.png
