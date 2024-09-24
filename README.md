@@ -17,4 +17,4 @@ Screenshot: selection screen ./assets/selection.jpg
 Screenshot: reveal screen ./assets/reveal.jpg
 Deployment link: https://tjwphd.github.io/wise-travelers
 
-assets/images/image.png  
+
